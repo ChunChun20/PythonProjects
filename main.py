@@ -5,6 +5,7 @@ from csv import reader
 import json
 import sqlite3
 
+#still have to fix some bugs
 
 def getInfoCSV(page, filename, count, cat, sort_type):
     url = f"https://balkanauction.com/bg/category/{cat}/{sort_type}&offset={page}"
